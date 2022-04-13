@@ -1,0 +1,23 @@
+{
+  "name": "mollo-technical-test",
+  "version": "1.0.0",
+  "description": "finance app",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bistty/mollo-technical-test.git"
+  },
+  "author": "Bisola Jesukunle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bistty/mollo-technical-test/issues"
+  },
+  "homepage": "https://github.com/bistty/mollo-technical-test#readme",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
