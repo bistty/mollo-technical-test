@@ -40,12 +40,12 @@ li.nav-item {
 }
 
 /* hero section */
-.hero,
+/* .hero,
 .bill-section,
 .transfer-section,
 .virtual-section {
   height: 90vh;
-}
+} */
 .hero-small-text {
   display: inline-block;
   text-transform: uppercase;
@@ -95,7 +95,11 @@ ul.bill-list {
   color: #433d4a;
 }
 
-.bill-section .hero-small-text {
+.bill-section {
+  margin-top: 80px;
+  margin-bottom: 5rem;
+}
+.hero-small-text {
   margin-top: 80px;
 }
 
@@ -109,22 +113,30 @@ img.shadow {
 /*transfer section */
 .transfer-section {
   margin-top: 30rem;
+  margin-bottom: 8rem;
   background: url('images/map.png') #fbfff0;
   background-repeat: no-repeat;
   background-size: contain;
   background-blend-mode: multiply;
+  position: relative;
 }
 .transfer-right-image {
-  position: relative;
+  position: absolute;
 }
 .transfer-right-image2 {
   position: absolute;
-  right: 120px;
+  right: 75px;
   margin-top: 50px;
+}
+
+/* register section */
+.virtual-section {
+  margin-bottom: 10rem;
 }
 /* register section */
 .register-section {
-  height: 75vh;
+  margin-top: 30rem;
+  margin-bottom: 10rem;
 }
 .register-section .row {
   position: relative;
